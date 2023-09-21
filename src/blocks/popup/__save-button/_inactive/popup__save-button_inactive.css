@@ -1,0 +1,6 @@
+.popup__save-button_inactive {
+  background-color: #FFFFFF;
+  color: #000000;
+  opacity: 0.2;
+  pointer-events: none;
+}

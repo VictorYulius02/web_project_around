@@ -1,0 +1,23 @@
+.profile__img-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+}
+
+.profile__img-container:hover .profile__img-overlay {
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+.profile__img-container:hover .profile__img-update-button {
+  opacity: 1;
+  cursor: pointer;
+  transition: opacity 1s ease-in-out;
+}
+
+@media screen and (max-width: 890px) {
+  .profile__img-container {
+    margin: 0 auto;
+  }
+}

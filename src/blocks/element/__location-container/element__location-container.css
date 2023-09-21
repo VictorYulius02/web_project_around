@@ -1,0 +1,6 @@
+.element__location-container {
+  width: 246px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px 15px 0 21px;
+}

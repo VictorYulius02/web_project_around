@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/InterWeb/Inter-Regular.woff2") format("woff2"),
+       url("../fonts/InterWeb/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/InterWeb/Inter-Medium.woff2") format("woff2"),
+       url("../fonts/InterWeb/Inter-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/InterWeb/Inter-MediumItalic.woff2") format("woff2"),
+       url("../fonts/InterWeb/Inter-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/InterWeb/Inter-Black.woff2") format("woff2"),
+       url("../fonts/InterWeb/Inter-Black.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/InterWeb/Inter-BlackItalic.woff2") format("woff2"),
+       url("../fonts/InterWeb/Inter-BlackItalic.woff") format("woff");
+}
+
+/* -------------------------------------------------------
+Variable font.
+Usage:
+
+  html { font-family: 'Inter', sans-serif; }
+  @supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+  }
+*/
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  /*font-named-instance: 'Regular';*/
+  src: url("../fonts/InterWeb/Inter-roman.var.woff2") format("woff2");
+}
+
+@import url(../vendor/normalize.css);
+/*@import url(../fonts/InterWeb/inter.css);*/
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__img-container/profile__img-container.css);
+@import url(../blocks/profile/__img-overlay/profile__img-overlay.css);
+@import url(../blocks/profile/__avatar/profile__avatar.css);
+@import url(../blocks/profile/__img-update-button/profile__img-update-button.css);
+@import url(../blocks/updateimg-input-error/updateimg-input-error.css);
+@import url(../blocks/profile-info/profile-info.css);
+@import url(../blocks/profile-info/__name/profile-info__name.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__overlay/popup__overlay.css);
+@import url(../blocks/popup/_active/popup_active.css);
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__form/_confirm/popup__form_confirm.css);
+@import url(../blocks/popup/__form/_update-img/popup__form_update-img.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__fields/popup__fields.css);
+@import url(../blocks/popup/__close-button/popup__close-button.css);
+@import url(../blocks/popup/__input/popup__input.css);
+@import url(../blocks/popup/__input/_type-error/popup__input_type-error.css);
+@import url(../blocks/popup/__input-error/popup__input-error.css);
+@import url(../blocks/popup/__input-error/_active/popup__input-error_active.css);
+@import url(../blocks/name-input-error/name-input-error.css);
+@import url(../blocks/job-input-error/job-input-error.css);
+@import url(../blocks/title-input-error/title-input-error.css);
+@import url(../blocks/webaddress-input-error/webaddress-input-error.css);
+@import url(../blocks/popup/__save-button/popup__save-button.css);
+@import url(../blocks/popup/__save-button/_inactive/popup__save-button_inactive.css);
+@import url(../blocks/profile-info/__edit-button/profile-info__edit-button.css);
+@import url(../blocks/profile-info/__job/profile-info__job.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);
+@import url(../blocks/elements/elements.css);
+@import url(../blocks/element/element.css);
+@import url(../blocks/element/__image/element__image.css);
+@import url(../blocks/element/__delete/element__delete.css);
+@import url(../blocks/element/__location-container/element__location-container.css);
+@import url(../blocks/element/__location/element__location.css);
+@import url(../blocks/element/__like-container/element__like-container.css);
+@import url(../blocks/element/__like-count/element__like-count.css);
+@import url(../blocks/element/__like-button/element__like-button.css);
+@import url(../blocks/element/__like-button/_active/element__like-button_active.css);
+@import url(../blocks/footer/footer.css);

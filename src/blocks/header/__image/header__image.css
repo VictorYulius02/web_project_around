@@ -1,0 +1,15 @@
+.header__image {
+  width: 173px;
+  height: 33px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 890px) {
+  .header__image {
+    position: relative;
+    width: 126px;
+    height: 24px;
+    left: 27px;
+    padding-top: 28px;
+  }
+}

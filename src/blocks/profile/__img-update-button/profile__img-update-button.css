@@ -1,0 +1,15 @@
+.profile__img-update-button {
+  position: absolute;
+  border: 0;
+  background-image: url(../../../images/EditIcon.svg);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 40%;
+  left: 40%;
+  height: 26px;
+  width: 26px;
+  opacity: 0;
+  display: flex;
+  z-index: 1;
+}

@@ -1,0 +1,11 @@
+.element {
+  position: relative;
+  width: 282px;
+  height: 361px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  border-radius: 10px;
+  align-content: flex-start;
+}
