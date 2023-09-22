@@ -1,24 +1,21 @@
-import "./styles/index.css";
+import "../pages/index.css";
 
-import headerImg from "./images/header.png";
+import headerImg from "../images/header.png";
 //import profileAvt from "./images/AvatarPicture.png";
 
-import Api from './components/Api.js';
-import PopupWithForm from './components/PopupWithForms.js';
-import PopupWithImage from './components/PopupWithImage.js';
-import PopupWithConfirm from './components/PopupWithConfirm.js';
-import UserInfo from './components/UserInfo.js';
-import FormValidator from './components/FormValidator.js';
-import Card from './components/Card.js';
-import Section from './components/Section.js';
+import Api from '../components/Api.js';
+import PopupWithForm from '../components/PopupWithForms.js';
+import PopupWithImage from '../components/PopupWithImage.js';
+import PopupWithConfirm from '../components/PopupWithConfirm.js';
+import UserInfo from '../components/UserInfo.js';
+import FormValidator from '../components/FormValidator.js';
+import Card from '../components/Card.js';
+import Section from '../components/Section.js';
 
 let userId;
 
 const headerImage = document.getElementById('header-image');
 headerImage.src = headerImg;
-
-/*const profileAvatar = document.getElementById('profile-avatar');
-profileAvatar.src= profileAvt;*/
 
 const api = new Api(
   "https://around.nomoreparties.co/v1/web_id_03",
@@ -228,8 +225,6 @@ Promise.all([api.getUserData(), api.getInitialCards()])
     });
     userInfo.setAvatar(userData.avatar);
     cardSection.renderItems(cardData);
-    //console.log(cardData);
-    //console.log(userData);
   })
   .catch((err) => {
     console.log(`Error: ${err}`);

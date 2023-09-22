@@ -59,10 +59,6 @@ class Card {
     return this._cardElement;
   }
 
-  /*_handleDeleteElement() {
-    this._element.remove();
-  }*/
-
   _setEventListeners() {
     const cardImage = this._cardElement.querySelector('.element__image');
     const cardLocation = this._cardElement.querySelector('.element__location');
